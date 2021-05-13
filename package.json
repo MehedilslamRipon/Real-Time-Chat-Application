@@ -1,0 +1,21 @@
+{
+   "name": "ChatApplication",
+   "version": "1.0.0",
+   "description": "",
+   "main": "app.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node app.js"
+   },
+   "keywords": [],
+   "author": "Mehedi Islam Ripon",
+   "license": "ISC",
+   "dependencies": {
+      "express": "^4.17.1",
+      "moment": "^2.29.1",
+      "socket.io": "^4.1.1"
+   },
+   "engines": {
+      "node": ">=10.0.0"
+   }
+}
