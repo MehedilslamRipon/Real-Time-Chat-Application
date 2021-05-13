@@ -218,3 +218,42 @@ input:focus {
       display: none;
    }
 }
+
+@media only screen and (max-width: 426px) {
+   .join-main .btn {
+      width: 46%;
+      padding: 8px;
+   }
+}
+
+@media only screen and (max-width: 1138px) {
+   .chat-form-container input[type='text'] {
+      width: 60%;
+   }
+}
+
+@media only screen and (max-width: 464px) {
+   .chat-form-container input[type='text'] {
+      width: 100%;
+   }
+}
+
+.send-button {
+   cursor: pointer;
+   padding: 10px 30px;
+   border: none;
+   border-radius: 5px;
+   background: #b1d8eb;
+   color: #3f5163;
+   border: none;
+   border-radius: 25px;
+   font-size: 17px;
+   margin-left: 20px;
+}
+
+@media only screen and (max-width: 464px) {
+   .send-button {
+      margin-left: 0px;
+      margin-top: 10px;
+   }
+}

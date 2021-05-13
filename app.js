@@ -28,7 +28,7 @@ io.on('connection', (socket) => {
       socket.join(user.room);
 
       // welcome current user
-      socket.emit('message', formatMessage(botName, 'Welcome to ChatApp!'));
+      socket.emit('message', formatMessage(botName, 'Welcome to XeroxChat!'));
 
       // broadcast when a user connects
       socket.broadcast
