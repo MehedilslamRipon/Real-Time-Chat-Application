@@ -102,6 +102,7 @@ a {
    max-height: 500px;
    overflow-y: scroll;
    background: #34495e;
+   min-height: 68vh;
 }
 
 .chat-messages .message {

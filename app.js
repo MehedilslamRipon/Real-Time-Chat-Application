@@ -18,7 +18,7 @@ const io = socketIo(server);
 // set static file
 app.use(express.static(path.join(__dirname, 'public')));
 
-const botName = 'ChatApp Bot';
+const botName = 'XeroxChat Bot';
 
 // run when client connects
 io.on('connection', (socket) => {
