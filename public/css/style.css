@@ -257,4 +257,7 @@ input:focus {
       margin-left: 0px;
       margin-top: 10px;
    }
+   .chat-messages {
+      min-height: 65vh;
+   }
 }
